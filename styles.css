@@ -4,38 +4,41 @@
     box-sizing: border-box;
 }
 .total_section {
-    padding: 32px 465px;
-    background-color: rgb(241, 238, 238);
-    background-repeat: repeat;
+    display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;  
+    padding: 32px 465px;
+    background-color: rgb(241, 238, 238);
+    background-repeat: space;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 .first_table {
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    padding: 100px 40px;
-    margin-bottom: 100%;
-    max-width: 432px;
-    max-height: 399px;
-    flex-direction: column;
+    position: relative;
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-sizing: inherit;
+    flex-direction: column;
+    padding: 100px 40px;
+    max-width: 432px;
+    max-height: 399px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 100%;
 }
 .bottom {
-    border-radius: 20px;
-    border-color: transparent;
-    color: rgb(192, 190, 190);
-    background-color: transparent;
-    font-size: 20px;
-    cursor: pointer;
+    position: relative;
     width: 30px;
     height: 30px;
-    position: absolute;
-    top: 55px;
-    right: 490px;
+    bottom: 90px;
+    left: 185px;
+    font-size: 20px;
+    color: rgb(192, 190, 190);
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .logo{
     margin-bottom: 10px;
@@ -47,48 +50,49 @@
     font-size: 18px;
 }
 .esoestabien {
-    border-radius: 3px;
-    border: none;
+    padding: 15px 45px;
     font-size: 15px;
-    border-color: transparent;
     background-color: #ed6755;
     color: #FFFFFF;
     box-shadow: #2c3e50;
-    padding: 15px 45px;
     box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
-    transition: all 0.3s ease 0s;
+    border-color: transparent;
+    border-radius: 3px;
+    border: none;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 /* **************************************** */ 
 
-
 .second_table{
-    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 100px 112px;
     border-radius: 20px;
-    margin-top: 140px;
+    margin-top: 100px;
     max-width: 432px;
     max-height: 399px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
+    background-color: #FFFFFF;
+    box-sizing: inherit;
 } 
 
 .bottomdos {
-    border-radius: 20px;
-    border-color: transparent;
+    position: relative;
     color: rgb(192, 190, 190);
     background-color: transparent;
+    border-color: transparent;
     font-size: 20px;
-    cursor: pointer;
     width: 30px;
     height: 30px;
-    position: absolute;
-    top: 490px;
-    right: 520px;
+    bottom: 70px;
+    left: 140px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .logodos{
     margin-bottom: 10px;
@@ -100,15 +104,15 @@
     font-size: 18px;
 }
 .ampliarsesion {
-    border-radius: 3px;
-    border: none;
+    padding: 15px 45px;
     font-size: 15px;
-    border-color: transparent;
     background-color: #2c3e50;
     color: #FFFFFF;
     box-shadow: #2c3e50;
-    padding: 15px 45px;
     box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
-    transition: all 0.3s ease 0s;
+    border-color: transparent;
+    border-radius: 3px;
+    border: none;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
